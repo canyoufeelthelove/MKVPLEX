@@ -1,11 +1,8 @@
-Perfecto, aquí tienes un README.md listo para usar con tu script, bien estructurado y explicativo:
-
-````markdown
 # Remuxador de Videos con ffmpeg y Python
 
 Este script permite remuxear (cambiar contenedor sin recodificar) archivos de video desde múltiples formatos de entrada a un formato de salida especificado, utilizando `ffmpeg` y `ffprobe` integrados. Además, muestra barras de progreso interactivas para cada archivo y para el proceso total.
 
----
+-------------------------------------------------------------------------------------------------------------
 
 ## Características
 
@@ -17,7 +14,7 @@ Este script permite remuxear (cambiar contenedor sin recodificar) archivos de vi
 - Guarda los archivos remuxeados en una carpeta `output` dentro del directorio de trabajo.
 - Compatible con ejecución directa en Python o como ejecutable generado con PyInstaller.
 
----
+-------------------------------------------------------------------------------------------------------------
 
 ## Requisitos
 
@@ -25,7 +22,7 @@ Este script permite remuxear (cambiar contenedor sin recodificar) archivos de vi
 - `ffmpeg.exe` y `ffprobe.exe` deben estar en el mismo directorio que el script o el ejecutable.
 - Librería `rich` (instalable con `pip install rich`).
 
----
+-------------------------------------------------------------------------------------------------------------
 
 ## Uso
 
@@ -49,7 +46,7 @@ python MKVPLEX_1_00.py -i mp4,mov -o mkv
 python MKVPLEX_1_00.py
 ```
 
----
+-------------------------------------------------------------------------------------------------------------
 
 ## Formatos soportados
 
@@ -61,20 +58,20 @@ python MKVPLEX_1_00.py
 
 `mkv`, `mp4`, `mov`, `webm`, `ts`, `avi`
 
----
+-------------------------------------------------------------------------------------------------------------
 
 ## Directorios y archivos
 
 * Los archivos a remuxear deben estar en el mismo directorio donde se ejecuta el script.
 * Los archivos remuxeados se guardan en la carpeta `output`, que se crea automáticamente.
 
----
+-------------------------------------------------------------------------------------------------------------
 
 ## Manejo de interrupciones
 
 Presionar Ctrl+C detendrá el proceso limpiamente y cerrará los procesos `ffmpeg` en ejecución.
 
----
+-------------------------------------------------------------------------------------------------------------
 
 ## Compilación con PyInstaller
 
@@ -82,23 +79,4 @@ Para generar un ejecutable independiente con `ffmpeg` y `ffprobe` embebidos, usa
 
 ```bash
 pyinstaller --onefile --add-binary "ffmpeg.exe;." --add-binary "ffprobe.exe;." --icon=ICO.ico MKVPLEX_1_00.py
-```
-
----
-
-## Licencia
-
-\[Tu licencia aquí]
-
----
-
-## Contacto
-
-Para preguntas o sugerencias, contacta a \[tu email o usuario].
-
-```
-
----
-
-¿Quieres que te lo genere ya en un archivo `.md` para que puedas descargarlo?
 ```
