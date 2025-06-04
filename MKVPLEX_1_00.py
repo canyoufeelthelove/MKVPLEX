@@ -136,5 +136,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# scrip para compilar [ pyinstaller --onefile --add-binary "ffmpeg.exe;." --add-binary "ffprobe.exe;." --icon=ICO.ico MKVPLEX_1_00.py]
+#----------------------------------------------------------------------------------------------------------------------------------------#
+# scrip para compilar [ pyinstaller --onefile --add-binary "ffmpeg.exe;." --add-binary "ffprobe.exe;." --icon=ICO.ico MKVPLEX_1_00.py]   |
+#----------------------------------------------------------------------------------------------------------------------------------------#
