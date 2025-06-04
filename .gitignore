@@ -1,2 +1,4 @@
 ffmpeg.exe
 ffprobe.exe
+.\build\
+.\dist\
