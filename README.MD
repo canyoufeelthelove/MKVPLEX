@@ -77,6 +77,6 @@ Presionar Ctrl+C detendrá el proceso limpiamente y cerrará los procesos `ffmpe
 
 Para generar un ejecutable independiente con `ffmpeg` y `ffprobe` embebidos, usar:
 
-```bash
-pyinstaller --onefile --add-binary "ffmpeg.exe;." --add-binary "ffprobe.exe;." --icon=ICO.ico MKVPLEX_1_00.py
-```
+#----------------------------------------------------------------------------------------------------------------------------------------#
+# scrip para compilar [ pyinstaller --onefile --add-binary "ffmpeg.exe;." --add-binary "ffprobe.exe;." --icon=ICO.ico MKVPLEX_1_00.py]   |
+#----------------------------------------------------------------------------------------------------------------------------------------#
